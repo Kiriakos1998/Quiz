@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiiz.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="10s"
+        android:gravity="center"
+        android:id="@+id/timer"/>
+    <TextView
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Is Berlin Germany's capital?"
+        android:background="#e4e9e7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/question"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Correct"
+        android:background="#e4e9e7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:visibility="gone"
+       android:id="@+id/answer"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Yes"
+        android:background="#10e61b"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/Yes"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="No"
+        android:background="#e61410"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/No"/>
+
+</LinearLayout>
